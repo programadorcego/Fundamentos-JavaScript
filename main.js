@@ -1,4 +1,3 @@
+ //Constante que armazena o valor de PI
 const pi = 3.14;
-console.log(pi);
-pi = 3.15;
 console.log(pi);
