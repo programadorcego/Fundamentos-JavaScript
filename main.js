@@ -1,2 +1,4 @@
-console.log("Olá, mundo")
-console.log("tudo bem?")
+const pi = 3.14;
+console.log(pi);
+pi = 3.15;
+console.log(pi);
