@@ -1,7 +1,9 @@
-let x = 5;
-// x += 1;
-// x -= 1;
-// x++;
-// x--;
-// console.log(++x);
-console.log(x);
+// console.log(5 == 5);
+// console.log(5 != 4);
+// console.log(5 != 4);
+// console.log(5 === "5");
+// console.log(5 !== "5");
+// console.log(5 > -5);
+// console.log(5 < 6);
+// console.log(5 >= 5);
+console.log(5 <= 6);
