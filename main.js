@@ -1,4 +1,6 @@
-let name = "Willian";
-let lastname = "Pereira";
-//console.log(name + lastname);
-console.log(`Meu nome é ${name} ${lastname}`);
+let num1 = 5;
+let num2 = 3;
+
+if(num1 > num2){
+	console.log(`${num1} é maior que ${num2}`);
+}
