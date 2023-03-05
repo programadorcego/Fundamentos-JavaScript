@@ -1,10 +1,19 @@
-let num1 = 3;
-let num2 = 2;
+let fruta = "manga";
 
-if(num1 > num2){
-	console.log(`${num1} é maior que ${num2}`);
-} else if(num1 === num2) {
-	console.log(`${num1} é igual a ${num2}`);
-} else {
-	console.log(`${num1} é menor que ${num2}`);
+switch(fruta) {
+	case "banana" :
+		console.log("Banana custa R$ 1,00 o quilo");
+	break;
+	
+	case "maçã" :
+		console.log("Maçã custa R$ 2,00 o quilo");
+	break;
+	
+	case "uva" :
+		console.log("Uva custa R$ 3,00 o quilo");
+	break;
+	
+	default :
+		console.log(`Desculpe. não há ${fruta} disponível no momento!`);
+	break;
 }
