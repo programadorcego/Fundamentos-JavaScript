@@ -1,3 +1,3 @@
-let isBirthday = false;
-let gretting = (isBirthday) ? "Olá, Willian. Feliz aniversário" : "Olá, Willian";
-console.log(gretting);
+for(let i = 1; i < 10; i++){
+	console.log(i);
+}
