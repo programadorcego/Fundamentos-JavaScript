@@ -1,14 +1,4 @@
-//let num = "";
-
-for(let i = 1; i <= 5; i++)
-{
-	if(i == 3)
-	{
-		const num = i;
-		console.log(num);
-	}
-	
-	//console.log(num);
-}
-
-//console.log(num);
+let frutas = ["maçã", "uva", "banana"];
+console.log(frutas);
+frutas = ['goiaba', ...frutas];
+console.log(frutas);
