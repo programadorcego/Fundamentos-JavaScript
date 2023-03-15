@@ -1,4 +1,6 @@
-let frutas = ["maçã", "uva", "banana"];
-console.log(frutas);
-frutas = ['goiaba', ...frutas];
-console.log(frutas);
+let frutas = ["maçã", "uva", "banana", "goiaba", "manga"];
+
+for(let fruta of frutas)
+{
+	console.log(fruta);
+}
