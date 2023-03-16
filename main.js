@@ -1,6 +1,5 @@
-let frutas = ["maçã", "uva", "banana", "goiaba", "manga"];
-
-for(let fruta of frutas)
-{
-	console.log(fruta);
+function soma(){
+	return 7 + 5;
 }
+
+console.log(soma());
