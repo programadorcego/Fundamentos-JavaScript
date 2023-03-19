@@ -1,5 +1,9 @@
-function soma(){
-	return 7 + 5;
+function fatorial(x){
+	if(x === 0){
+		return 1;
+	}
+	
+	return x * fatorial(x - 1);
 }
 
-console.log(soma());
+console.log(fatorial(5));
