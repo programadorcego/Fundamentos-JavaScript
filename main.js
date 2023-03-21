@@ -1,5 +1,3 @@
-const soma = function(){
-	return 7 + 5;
-};
+const cumprimento = nome => `Olá, ${nome}. Muito prazer!`;
 
-console.log(soma());
+console.log(cumprimento('Willian'));
