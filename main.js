@@ -1,3 +1,12 @@
-const cumprimento = nome => `Olá, ${nome}. Muito prazer!`;
+/*let a, b;
+[a, b] = [1, 2];
+console.log(a);*/
 
-console.log(cumprimento('Willian'));
+/*let a, b, c;
+[a, b, ...c] = [1, 2, 3, 4, 5];
+console.log(c);*/
+
+let a = 1;
+let b = 2;
+[a, b] = [b, a];
+console.log(a);
