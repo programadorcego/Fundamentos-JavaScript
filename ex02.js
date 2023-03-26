@@ -1,9 +1,12 @@
-let numero = 0;
+let tabuada = 11;
+let contador = 0;
 
-if(numero > 0){
-	console.log(`O número ${numero} é positivo`);
-} else if(numero < 0){
-	console.log(`O número ${numero} é negativo`);
+if(tabuada < 0 || tabuada > 10){
+	console.log("A tabuada precisa ser entre 0 e 10");
 } else {
-	console.log(`O número é 0`);
+	while(contador <= 10){
+		let resultado = tabuada * contador;
+		console.log(`${tabuada} X ${contador} = ${resultado}`);
+		contador++;
+	}
 }

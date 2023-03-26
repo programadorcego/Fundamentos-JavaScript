@@ -1,7 +1,10 @@
-let numero = 5;
-
-if(numero % 2 == 0){
-	console.log(`O número ${numero} é par`);
-} else {
-	console.log(`O número ${numero} é ímpar`);
+let soma = 0;
+for(let i = 1; i <= 10; i++){
+	if(i % 2 != 0){
+		continue;
+	}
+	
+	soma += i;
 }
+
+console.log(soma);
