@@ -1,10 +1,18 @@
-let soma = 0;
-for(let i = 1; i <= 10; i++){
-	if(i % 2 != 0){
-		continue;
+function verificaPrimo(n){
+	let ePrimo = true;
+	
+	for(let i = 2; i < n; i++){
+		if(n % i == 0){
+			ePrimo = false;
+			break;
+		}
 	}
 	
-	soma += i;
+	if(ePrimo){
+		return `O número ${n} é primo`;
+	}
+	
+	return `O número ${n} não é primo`;
 }
 
-console.log(soma);
+console.log(verificaPrimo(17));
