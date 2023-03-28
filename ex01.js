@@ -1,18 +1,14 @@
-function verificaPrimo(n){
-	let ePrimo = true;
-	
-	for(let i = 2; i < n; i++){
-		if(n % i == 0){
-			ePrimo = false;
-			break;
-		}
+function maiorElemento(array, indice, maior){
+	if(array[indice] == undefined){
+		return maior;
 	}
 	
-	if(ePrimo){
-		return `O número ${n} é primo`;
+	if(array[indice] > maior){
+		maior = array[indice];
 	}
 	
-	return `O número ${n} não é primo`;
+	return maiorElemento(array, indice + 1, maior);
 }
 
-console.log(verificaPrimo(17));
+let numeros = [3, 4, 2, 7, 9, 10, 4];
+console.log(maiorElemento(numeros, 0, numeros[0]));

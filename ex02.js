@@ -1,15 +1,11 @@
-function somaPar(n){
-	let soma = 0;
-	
-	for(i = 0; i <= n; i++){
-		if(i % 2 != 0){
-			continue;
-		}
-		
-		soma += i;
+function somaNumeros(array, indice, soma){
+	if(array[indice] == undefined){
+		return soma;
 	}
 	
-	return soma;
+	soma += array[indice];
+	return somaNumeros(array, indice + 1, soma);
 }
 
-console.log(somaPar(20));
+numeros = [2, 4, 6, 8, 10];
+console.log(somaNumeros(numeros, 0, 0));
